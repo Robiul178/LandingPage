@@ -61,18 +61,18 @@ export default function ChatBox() {
           </button>
         </div>
 
-        <div className="mt-4 flex">
+        <div className="mt-4 flex gap-2">
           <input
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
             placeholder="Ask anything you need"
-            className="flex-1 md:px-3 py-2 border rounded-l-md focus:outline-none max-sm:px-1"
+            className="md:flex-1 md:px-3 py-2 border rounded-md focus:outline-none max-sm:px-1 max-sm:w-full"
           />
           <button
             onClick={handleSend}
-            className="bg-blue-950 text-white md:px-4 max-sm:px-1 rounded-r-md hover:bg-blue-900 flex gap-1 items-center justify-center"
+            className="bg-blue-950 text-white md:px-4 max-sm:px-3 rounded-md hover:bg-blue-900 flex gap-1 items-center justify-center"
           >
             Send <ArrowUp />
           </button>

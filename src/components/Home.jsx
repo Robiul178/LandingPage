@@ -127,11 +127,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="max-w-[1440px] mx-auto p-4 lg:p-0 my-6">
+      <section className="max-w-[1440px] mx-auto p-4 lg:p-0 my-16">
         <div className="mt-4">
-          <h1 className="text-[42px] ">Our Courses</h1>
+          <h1 className="lg:text-[42px] text-4xl">Our Courses</h1>
           <div className="lg:flex justify-between">
-            <p className="pt-1 text-[18px]">
+            <p className="py-3 lg:text-[18px] text-sm">
               Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
               eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et.{" "}
               <br /> Ac cum eget habitasse in velit fringilla feugiat senectus
@@ -177,7 +177,7 @@ export default function Home() {
         <div className="max-w-[1440px] mx-auto p-4 lg:p-0">
           <div className="max-w-[1440px] mx-auto p-4 lg:p-0 ">
             <div className="w-full h-[353px] bg-gradient-to-br z-50 from-indigo-950 to-blue-800 text-center rounded-lg my-10 flex gap-2 flex-col items-center justify-center">
-              <h1 className="text-[48px] text-white  ">
+              <h1 className="lg:text-[48px] text-3xl text-white  ">
                 Ready to Hire Smarter?
               </h1>
               <p className="text-[16px] text-white ">

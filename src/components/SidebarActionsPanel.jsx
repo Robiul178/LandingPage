@@ -13,7 +13,7 @@ const SidebarActionsPanel = () => {
   return (
     <div className="md:flex items-center w-full lg:gap-4 md:gap-2">
       {/* Vertical Icon Sidebar */}
-      <div className="flex md:flex-col bg-white rounded-full md:p-3 max-sm:p-3 max-sm:mt-3 max-sm:w-full items-center gap-6 shadow">
+      <div className="flex md:flex-col justify-between bg-white rounded-full md:p-3 max-sm:px-8 max-sm:py-2 max-sm:mt-3 max-sm:w-full items-center gap-6 shadow">
         <ThumbsUp className="w-5 h-5 text-gray-700 cursor-pointer" />
         <ThumbsDown className="w-5 h-5 text-gray-700 cursor-pointer" />
         <ClipboardList className="w-5 h-5 text-gray-700 cursor-pointer" />
@@ -66,13 +66,13 @@ const SidebarActionsPanel = () => {
             Quick Actions
           </h3>
           <div className="lg:grid grid-cols-2 gap-3">
-            <div className="bg-gray-100 rounded-lg p-3 lg:flex-none md:flex gap-2 md:mb-2">
+            <div className="bg-gray-100 rounded-lg p-3 lg:block md:flex gap-2 md:mb-2">
               <FileText className="w-5 h-5 text-blue-800" />
               <span className="lg:text-sm md:text-xs font-medium text-gray-700">
                 Generate Script
               </span>
             </div>
-            <div className="bg-gray-100 rounded-lg p-3 lg:flex-none md:flex gap-2">
+            <div className="bg-gray-100 rounded-lg p-3 lg:block md:flex gap-2">
               <MessageSquare className="w-5 h-5 text-blue-800" />
               <span className="lg:text-sm md:text-xs font-medium text-gray-700">
                 Practice Pitch

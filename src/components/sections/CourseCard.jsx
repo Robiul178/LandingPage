@@ -14,23 +14,25 @@ export default function CourseCard({
           <img
             src={image}
             alt={title}
-            className="w-[605px] h-[380px] object-cover rounded-lg"
+            className="w-[605px] md:h-[380px] h-fit object-cover rounded-lg"
           />
         </div>
         <div className="flex justify-between gap-2 items-start my-3">
           <div className="flex items-center gap-2">
-            <span className="inline-block bg-white text-sm px-2 py-1 rounded mr-2">
+            <span className="inline-block bg-white text-xs px-2 py-1 rounded mr-2">
               {duration}
             </span>
-            <span className="inline-block bg-white text-sm px-2 py-1 rounded">
+            <span className="inline-block bg-white text-xs px-2 py-1 rounded">
               {level}
             </span>
           </div>
-          <p className=" lg:text-lg text-sm">By {instructor}</p>
+          <p className=" lg:text-lg text-xs">By {instructor}</p>
         </div>
 
         <h3 className="text-xl font-bold text-gray-800 mb-3">{title}</h3>
-        <p className="text-gray-600 text-[18px] mb-4">{description}</p>
+        <p className="text-gray-600 lg:text-[18px] text-sm mb-4">
+          {description}
+        </p>
 
         <button className="w-full bg-[#012869]  text-white py-2 px-4 rounded-md transition-colors duration-300">
           {buttonText}
