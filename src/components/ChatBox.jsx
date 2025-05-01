@@ -26,9 +26,9 @@ export default function ChatBox() {
         <div className="text-sm font-semibold mb-2">AI Sales Coach</div>
         <div className="h-64 overflow-y-auto bg-gray-100 max-sm:p-4 rounded-md ">
           {messages.map((msg, idx) => (
-            <div className="flex  gap-2">
+            <div className="flex  gap-2 m-2">
               <div
-                className={`w-5 h-5 rounded-full bg-gray-400 relative top-2.5 max-sm:hidden ${
+                className={`w-5 h-5 rounded-full bg-gray-400  relative top-2.5 max-sm:hidden ${
                   msg.sender === "bot" ? "visible" : "hidden"
                 }`}
               ></div>
