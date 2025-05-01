@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="max-w-[1440px] mx-auto md:flex justify-between gap-10">
         <div className="lg:w-[534px] mb-2">
           <div className="flex gap-3 items-center justify-start">
-            <img src="/images/Group 2.png" alt="ds" className="h-8 w-16" />
+            <img src="/images/Group 2.png" alt="ds" className="h-8 w-fit" />
             <img src="/images/Logo.png" alt="f" className="h-8 w-16" />
           </div>
           <p className="text-sm py-2 mt-3">

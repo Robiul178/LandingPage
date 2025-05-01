@@ -16,9 +16,9 @@ const AccordionItem = ({ question, answer, isOpen, onClick, index }) => {
           </div>
           <div>
             {isOpen ? (
-              <Minus className="w-5 h-5 text-blue-600" />
+              <Minus className="w-5 h-5" />
             ) : (
-              <Plus className="w-5 h-5 text-blue-600" />
+              <Plus className="w-5 h-5 " />
             )}
           </div>
         </button>

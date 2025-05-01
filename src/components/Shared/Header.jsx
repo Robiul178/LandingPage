@@ -6,7 +6,7 @@ export default function Header() {
       {/* Logo Section */}
       <div className="flex gap-12 items-center ">
         <div className="flex items-center space-x-2">
-          <img src="/images/lolo.png" alt="" className="h-8 w-20" />
+          <img src="/images/lolo.png" alt="" className="h-8 w-fit" />
         </div>
 
         <nav className="hidden md:flex space-x-6 text-sm font-medium text-gray-800">

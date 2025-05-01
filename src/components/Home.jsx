@@ -137,7 +137,7 @@ export default function Home() {
               <br /> Ac cum eget habitasse in velit fringilla feugiat senectus
               in.
             </p>
-            <button className="bg-[#012869] text-white px-3 lg:h-8 w-fit rounded-sm p-2 mt-2 lg:mt-0">
+            <button className="bg-[#012869] text-white px-6 w-fit rounded-sm lg:h-10 mt-2 lg:mt-0">
               View All
             </button>
           </div>
