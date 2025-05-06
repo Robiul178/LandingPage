@@ -150,6 +150,33 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <section className="bg-[#012869] py-16">
+          <div className="max-w-[1440px] mx-auto p-4 lg:p-0">
+            <div className="lg:flex items-center justify-between">
+              <div className="lg:w-[440px]">
+                <h1 className="lg:text-[60px] text-4xl lg:my-0 my-3 font-light text-white">
+                  Unique Selling Proposition
+                </h1>
+                <p className="text-white text-lg lg:my-6 my-3">
+                  Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam
+                  eget elit id imperdiet et. Cras eu sit dignissim lorem nibh
+                  et.
+                  <br /> Ac cum eget habitasse in velit fringilla feugiat
+                  senectus in.
+                </p>
+              </div>
+              <div className="lg:w-[440px] lg:mt-0 mt-10">
+                <img
+                  src="/assets/unique-usp.webp"
+                  alt="unique usp"
+                  className="w-full h-auto"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
       <section className="max-w-[1440px] mx-auto p-4 lg:p-0">
         <div className="py-7">
           <p className="relative right-0 text-2xl">
